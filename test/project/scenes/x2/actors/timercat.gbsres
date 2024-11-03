@@ -23,6 +23,24 @@
         "actorId": "$self$"
       },
       "id": "c19228f4-49d5-451c-8744-92e5f556a432"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "645941d5-8c76-431d-9b93-c190973bde10",
+        "$actor[0]$": "1d3e1b6c-f27f-4b09-b964-5da35faf2854",
+        "$actor[1]$": "20a2c6ac-4e67-4eeb-adb7-470488ff1808",
+        "$actor[2]$": "5cc81b80-336b-444e-a136-30b1983e0c82",
+        "$actor[3]$": "b0354d13-3b20-400d-b2f7-b68e19d92021",
+        "$actor[4]$": "e658de43-2de3-4575-80c6-c88bd81e8a55",
+        "$actor[5]$": "ab48fcc7-b6d6-482d-a5d5-22b2f2bb4fd7",
+        "$actor[6]$": "6d74e5d0-fba6-4cdc-95be-e69fa9d0dd85",
+        "$actor[7]$": "065b722b-5f2e-4016-bfd1-e5fccb32973b",
+        "$actor[8]$": "b0f7790b-3bbc-4c33-82f2-a3eaf7b4cedb",
+        "$actor[9]$": "3144e38f-db47-4a34-8cd9-7ae204eb14da",
+        "__collapse": true
+      },
+      "id": "6318ff7c-f000-4498-ac85-4776aae9b3e7"
     }
   ],
   "updateScript": [
@@ -42,13 +60,6 @@
         "$actor[9]$": "3144e38f-db47-4a34-8cd9-7ae204eb14da"
       },
       "id": "9dfda679-2605-4c5a-8316-191ff22c3685"
-    },
-    {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
-      "args": {
-        "customEventId": "80922cb9-d854-4bbd-bf8e-06c3223ceada"
-      },
-      "id": "775e444a-5513-40fa-894a-7ed5c0cc9906"
     }
   ],
   "hit1Script": [],
