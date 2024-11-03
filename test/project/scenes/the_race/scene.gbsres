@@ -96,6 +96,26 @@
         ]
       },
       "id": "9a78ab14-3884-4dc7-abad-7b3ee5beeff4"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "b6b2dba2-2886-4485-841d-3565bfb8cbaf"
+      },
+      "id": "e7f1c2bf-4d63-49b3-85aa-8df17fdac2cb"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 6,
+        "frames": 30
+      },
+      "id": "7ce9e902-007a-4574-89db-ce74bbe9492c"
+    },
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "1fde566c-5870-4bfb-ab2e-2a6442cab2e3"
     }
   ],
   "playerHit1Script": [],

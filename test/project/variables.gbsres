@@ -272,6 +272,11 @@
       "symbol": "var_directionvalue"
     },
     {
+      "id": "54",
+      "name": "temp",
+      "symbol": "var_temp"
+    },
+    {
       "id": "871ea302-1cc1-463c-b9d7-530aac38fe81__L0",
       "name": "Spoken to gardener",
       "symbol": ""
@@ -355,11 +360,6 @@
       "id": "b0354d13-3b20-400d-b2f7-b68e19d92021__L0",
       "name": "Local0",
       "symbol": "var_local0_2"
-    },
-    {
-      "id": "54",
-      "name": "temp",
-      "symbol": "var_temp"
     }
   ]
 }
