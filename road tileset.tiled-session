@@ -1,0 +1,33 @@
+{
+    "activeFile": "road tiles 2X.tsx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "road tiles 1X.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 8
+        },
+        "road tiles 2X.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 8
+        }
+    },
+    "last.imagePath": "C:/Users/ashwe/Dropbox/!! NOT POCKET RUMBLE/11-2024-Game-Jam",
+    "openFiles": [
+        "road tiles 2X.tsx"
+    ],
+    "project": "road tileset.tiled-project",
+    "recentFiles": [
+        "road tiles 2X.tsx",
+        "road tiles 1X.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    },
+    "tileset.type": 0
+}
