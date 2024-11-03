@@ -1,0 +1,24 @@
+{
+  "_resourceType": "tileset",
+  "id": "a19b9f29-9316-48da-b80e-6682dc31b346",
+  "name": "static UI",
+  "symbol": "tileset_static_ui",
+  "width": 20,
+  "height": 2,
+  "imageWidth": 160,
+  "imageHeight": 16,
+  "filename": "static UI.png",
+  "numFrames": 10,
+  "checksum": "e92ffceaa523807890905ad362bf0c7d97802538",
+  "states": [
+    "52beadae-bfde-46d5-99da-ca6f2dfcafa7"
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15
+}

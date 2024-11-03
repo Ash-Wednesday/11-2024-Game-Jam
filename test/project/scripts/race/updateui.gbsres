@@ -1,0 +1,55 @@
+{
+  "_resourceType": "script",
+  "id": "80922cb9-d854-4bbd-bf8e-06c3223ceada",
+  "name": "race/UpdateUI",
+  "description": "Put it on the cat",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_19",
+  "script": [
+    {
+      "command": "EVENT_REPLACE_TILE_XY",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 32
+        },
+        "tilesetId": "a19b9f29-9316-48da-b80e-6682dc31b346",
+        "tileIndex": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "34c33cba-cdef-4aa7-b120-bf2bd9c4c384"
+    },
+    {
+      "command": "EVENT_LOOP_FOR",
+      "args": {
+        "variable": "54",
+        "from": {
+          "type": "number",
+          "value": 0
+        },
+        "comparison": "<",
+        "to": {
+          "type": "number",
+          "value": 20
+        },
+        "operation": "+=",
+        "value": {
+          "type": "number",
+          "value": 1
+        },
+        "__comment": true
+      },
+      "children": {
+        "true": []
+      },
+      "id": "450c78d7-2e60-4a4e-8a4b-e41a77c96a34"
+    }
+  ]
+}

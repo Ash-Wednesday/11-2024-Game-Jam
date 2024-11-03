@@ -42,6 +42,13 @@
         "$actor[9]$": "3144e38f-db47-4a34-8cd9-7ae204eb14da"
       },
       "id": "9dfda679-2605-4c5a-8316-191ff22c3685"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "80922cb9-d854-4bbd-bf8e-06c3223ceada"
+      },
+      "id": "775e444a-5513-40fa-894a-7ed5c0cc9906"
     }
   ],
   "hit1Script": [],

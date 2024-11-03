@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "19f80322-50eb-4c57-9b88-6478854a4b1c",
+  "name": "road tiles 1X",
+  "symbol": "tileset_road_tiles_1x",
+  "width": 28,
+  "height": 4,
+  "imageWidth": 224,
+  "imageHeight": 32,
+  "filename": "road tiles 1X.png"
+}

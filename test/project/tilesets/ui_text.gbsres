@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "9f1e3897-e228-4ae9-86d4-5ba9c413d58b",
+  "name": "UI Text",
+  "symbol": "tileset_ui_text",
+  "width": 13,
+  "height": 2,
+  "imageWidth": 104,
+  "imageHeight": 16,
+  "filename": "UI Text.png"
+}

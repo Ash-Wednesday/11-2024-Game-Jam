@@ -355,6 +355,11 @@
       "id": "b0354d13-3b20-400d-b2f7-b68e19d92021__L0",
       "name": "Local0",
       "symbol": "var_local0_2"
+    },
+    {
+      "id": "54",
+      "name": "temp",
+      "symbol": "var_temp"
     }
   ]
 }
