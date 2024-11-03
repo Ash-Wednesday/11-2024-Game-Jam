@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "15190557-c1bf-40e5-a941-a9a3fea63784",
+  "name": "x2",
+  "symbol": "bg_x2",
+  "width": 40,
+  "height": 36,
+  "imageWidth": 320,
+  "imageHeight": 288,
+  "filename": "x2.png",
+  "tileColors": "",
+  "autoColor": false
+}

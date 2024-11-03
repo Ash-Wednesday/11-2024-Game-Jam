@@ -1,0 +1,93 @@
+{
+  "_resourceType": "actor",
+  "id": "e7137106-4330-49bd-a1bc-3322888ae236",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "6537d021-ba93-4a83-b647-0767b4c47559",
+  "prefabId": "",
+  "direction": "up",
+  "moveSpeed": 0.0625,
+  "animSpeed": 255,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": true,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_35",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "94cb10e0-01a1-4eda-a082-858d2e0dac67",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "18"
+        },
+        "$variable[V1]$": {
+          "type": "variable",
+          "value": "19"
+        },
+        "$variable[V2]$": {
+          "type": "variable",
+          "value": "34"
+        },
+        "__collapse": true
+      },
+      "id": "c7cb8402-51e0-488f-8e4b-11f83b93f1a2"
+    }
+  ],
+  "updateScript": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "1e01d263-9b7c-4e78-9c0a-c59fe7edc7ce",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "18"
+        },
+        "$variable[V1]$": {
+          "type": "variable",
+          "value": "19"
+        },
+        "$variable[V2]$": {
+          "type": "variable",
+          "value": "34"
+        },
+        "__collapse": false,
+        "$variable[V3]$": {
+          "type": "variable",
+          "value": "45"
+        }
+      },
+      "id": "e6fbcb3f-7299-43b1-90a4-1ae010af1712"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "e2c75bc3-12ba-424f-9d90-516d187b6512",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "18"
+        },
+        "$variable[V1]$": {
+          "type": "variable",
+          "value": "19"
+        },
+        "__collapse": true,
+        "$variable[V2]$": {
+          "type": "variable",
+          "value": "34"
+        }
+      },
+      "id": "f3b2b91b-693d-4b78-b2a5-435a4e613607"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 51,
+  "y": 39,
+  "_index": 5
+}

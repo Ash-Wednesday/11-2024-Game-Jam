@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "4f5cbcaf-b2d7-44eb-9414-964b80a6b924",
+  "name": "x3",
+  "symbol": "bg_x3",
+  "width": 60,
+  "height": 54,
+  "imageWidth": 480,
+  "imageHeight": 432,
+  "filename": "x3.png",
+  "tileColors": "",
+  "autoColor": false
+}
