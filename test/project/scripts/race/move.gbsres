@@ -1,7 +1,7 @@
 {
   "_resourceType": "script",
   "id": "1e01d263-9b7c-4e78-9c0a-c59fe7edc7ce",
-  "name": "Move",
+  "name": "race/Move",
   "description": "Move Racer",
   "variables": {
     "V0": {
@@ -82,8 +82,8 @@
             "value": 8
           }
         },
-        "__collapseElse": false,
-        "__collapse": true
+        "__collapseElse": true,
+        "__collapse": false
       },
       "children": {
         "true": [

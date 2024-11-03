@@ -1,7 +1,7 @@
 {
   "_resourceType": "script",
   "id": "94cb10e0-01a1-4eda-a082-858d2e0dac67",
-  "name": "InitializeRacer",
+  "name": "race/InitializeRacer",
   "description": "Initialization",
   "variables": {
     "V0": {
@@ -12,11 +12,6 @@
     "V1": {
       "id": "V1",
       "name": "Variable B",
-      "passByReference": true
-    },
-    "V2": {
-      "id": "V2",
-      "name": "Variable C",
       "passByReference": true
     }
   },
@@ -57,18 +52,6 @@
         "__collapse": true
       },
       "id": "37e4d059-b190-4d85-81fd-0d5ff5d1f467"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "V2",
-        "value": {
-          "type": "number",
-          "value": 8
-        },
-        "__collapse": true
-      },
-      "id": "3bf76322-3e2f-49b7-b29f-dee2a891dbe4"
     }
   ]
 }

@@ -4,7 +4,7 @@
   "name": "Actor 1B",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "fbedc3ac-d150-4b05-a3a5-39a014cad872",
+  "spriteSheetId": "cc75f789-b6af-4ba2-b9ab-8612c0e32451",
   "prefabId": "",
   "direction": "up",
   "moveSpeed": 0.0625,
@@ -21,7 +21,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 31,
-  "y": 27,
+  "x": 28,
+  "y": 24,
   "_index": 1
 }

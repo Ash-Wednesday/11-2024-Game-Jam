@@ -1,10 +1,10 @@
 {
   "_resourceType": "sprite",
   "id": "c3049da5-7a2b-468f-b510-d51c157b67eb",
-  "name": "medium car 32x32",
+  "name": "medium car",
   "symbol": "sprite_medium_car_32x32",
   "numFrames": 16,
-  "filename": "medium car 32x32.png",
+  "filename": "medium car.png",
   "checksum": "4fe87ce280dd7fcfd3cba28423de786bdc6b0a45",
   "width": 256,
   "height": 32,

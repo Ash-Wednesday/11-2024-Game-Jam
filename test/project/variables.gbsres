@@ -222,6 +222,56 @@
       "symbol": "var_halfspeed"
     },
     {
+      "id": "44",
+      "name": "GroupTurn",
+      "symbol": "var_groupturn"
+    },
+    {
+      "id": "45",
+      "name": "Group1ID",
+      "symbol": "var_group1id_0"
+    },
+    {
+      "id": "46",
+      "name": "Group2ID",
+      "symbol": "var_group2id"
+    },
+    {
+      "id": "47",
+      "name": "Group3ID",
+      "symbol": "var_group3id"
+    },
+    {
+      "id": "48",
+      "name": "Group4ID",
+      "symbol": "var_group4id"
+    },
+    {
+      "id": "49",
+      "name": "Group5ID",
+      "symbol": "var_group5id"
+    },
+    {
+      "id": "50",
+      "name": "Group6ID",
+      "symbol": "var_group6id"
+    },
+    {
+      "id": "51",
+      "name": "Group7ID",
+      "symbol": "var_group7id"
+    },
+    {
+      "id": "52",
+      "name": "Group8ID",
+      "symbol": "var_group8id"
+    },
+    {
+      "id": "53",
+      "name": "DirectionValue",
+      "symbol": "var_directionvalue"
+    },
+    {
       "id": "871ea302-1cc1-463c-b9d7-530aac38fe81__L0",
       "name": "Spoken to gardener",
       "symbol": ""
@@ -290,51 +340,6 @@
       "id": "a03d480b-bb63-4731-a300-39fce7430393__L0",
       "name": "Local0",
       "symbol": "var_local0"
-    },
-    {
-      "id": "44",
-      "name": "GroupTurn",
-      "symbol": "var_groupturn"
-    },
-    {
-      "id": "45",
-      "name": "Group1ID",
-      "symbol": "var_group1id_0"
-    },
-    {
-      "id": "46",
-      "name": "Group2ID",
-      "symbol": "var_group2id"
-    },
-    {
-      "id": "47",
-      "name": "Group3ID",
-      "symbol": "var_group3id"
-    },
-    {
-      "id": "48",
-      "name": "Group4ID",
-      "symbol": "var_group4id"
-    },
-    {
-      "id": "49",
-      "name": "Group5ID",
-      "symbol": "var_group5id"
-    },
-    {
-      "id": "50",
-      "name": "Group6ID",
-      "symbol": "var_group6id"
-    },
-    {
-      "id": "51",
-      "name": "Group7ID",
-      "symbol": "var_group7id"
-    },
-    {
-      "id": "52",
-      "name": "Group8ID",
-      "symbol": "var_group8id"
     },
     {
       "id": "c0343a48-97bc-4a86-836c-e055ab2587dd__L0",
