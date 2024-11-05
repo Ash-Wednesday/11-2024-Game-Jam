@@ -4,7 +4,7 @@
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "0149ebf1-bc5f-423f-a85a-a0125c9aea8c",
+  "spriteSheetId": "c3049da5-7a2b-468f-b510-d51c157b67eb",
   "prefabId": "",
   "direction": "up",
   "moveSpeed": 0.0625,
@@ -22,18 +22,22 @@
       "args": {
         "customEventId": "94cb10e0-01a1-4eda-a082-858d2e0dac67",
         "$variable[V0]$": {
-          "type": "variable",
-          "value": "18"
+          "type": "number",
+          "value": 2
         },
         "$variable[V1]$": {
           "type": "variable",
-          "value": "19"
+          "value": "18"
         },
         "$variable[V2]$": {
           "type": "variable",
-          "value": "34"
+          "value": "19"
         },
-        "__collapse": false
+        "__collapse": false,
+        "$variable[V3]$": {
+          "type": "variable",
+          "value": "34"
+        }
       },
       "id": "0a0ab626-a73b-482f-bb88-217825a5d571"
     }
@@ -42,7 +46,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 28,
+  "x": 34,
   "y": 22,
   "_index": 0
 }

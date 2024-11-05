@@ -173,43 +173,43 @@
     },
     {
       "id": "34",
-      "name": "Actor1Direction",
-      "symbol": "var_actor1direction"
+      "name": "Actor1Velocity",
+      "symbol": "var_actor1velocity"
     },
     {
       "id": "35",
-      "name": "Actor2Direction",
-      "symbol": "var_actor2direction"
+      "name": "Actor2Velocity",
+      "symbol": "var_actor2velocity"
     },
     {
       "id": "36",
-      "name": "Actor3Direction",
-      "symbol": "var_actor3direction"
+      "name": "Actor3Velocity",
+      "symbol": "var_actor3velocity"
     },
     {
       "id": "37",
-      "name": "Actor4Direction",
-      "symbol": "var_actor4direction"
+      "name": "Actor4Velocity",
+      "symbol": "var_actor4velocity"
     },
     {
       "id": "38",
-      "name": "Actor5Direction",
-      "symbol": "var_actor5direction"
+      "name": "Actor5Velocity",
+      "symbol": "var_actor5velocity"
     },
     {
       "id": "39",
-      "name": "Actor6Direction",
-      "symbol": "var_actor6direction"
+      "name": "Actor6Velocity",
+      "symbol": "var_actor6velocity"
     },
     {
       "id": "40",
-      "name": "Actor7Direction",
-      "symbol": "var_actor7direction"
+      "name": "Actor7Velocity",
+      "symbol": "var_actor7velocity"
     },
     {
       "id": "41",
-      "name": "Actor8Direction",
-      "symbol": "var_actor8direction"
+      "name": "Actor8Velocity",
+      "symbol": "var_actor8velocity"
     },
     {
       "id": "42",
@@ -275,6 +275,16 @@
       "id": "54",
       "name": "temp",
       "symbol": "var_temp"
+    },
+    {
+      "id": "55",
+      "name": "RaceStarted",
+      "symbol": "var_racestarted"
+    },
+    {
+      "id": "56",
+      "name": "temp2",
+      "symbol": "var_temp2"
     },
     {
       "id": "871ea302-1cc1-463c-b9d7-530aac38fe81__L0",
@@ -360,11 +370,6 @@
       "id": "b0354d13-3b20-400d-b2f7-b68e19d92021__L0",
       "name": "Local0",
       "symbol": "var_local0_2"
-    },
-    {
-      "id": "55",
-      "name": "RaceStarted",
-      "symbol": "var_racestarted"
     }
   ]
 }

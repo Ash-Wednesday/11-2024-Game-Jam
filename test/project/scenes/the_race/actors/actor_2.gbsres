@@ -12,7 +12,7 @@
   "paletteId": "",
   "isPinned": false,
   "persistent": true,
-  "collisionGroup": "1",
+  "collisionGroup": "2",
   "prefabScriptOverrides": {},
   "symbol": "actor_49",
   "script": [],
@@ -22,27 +22,31 @@
       "args": {
         "customEventId": "94cb10e0-01a1-4eda-a082-858d2e0dac67",
         "$variable[V0]$": {
-          "type": "variable",
-          "value": "20"
+          "type": "number",
+          "value": 1
         },
         "$variable[V1]$": {
           "type": "variable",
-          "value": "21"
+          "value": "20"
         },
         "$variable[V2]$": {
           "type": "variable",
-          "value": "35"
+          "value": "21"
         },
-        "__collapse": false
+        "__collapse": false,
+        "$variable[V3]$": {
+          "type": "variable",
+          "value": "35"
+        }
       },
-      "id": "bed5245e-6a83-441d-85fc-1bc55de5ea57"
+      "id": "4be206b5-7893-4d9b-aee5-bd6998fe6344"
     }
   ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 17,
+  "x": 18,
   "y": 11,
   "_index": 1
 }

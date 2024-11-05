@@ -1,10 +1,10 @@
 {
   "_resourceType": "sprite",
   "id": "7173aa3a-d14b-4cf3-ad8c-7b5cb4e00d0a",
-  "name": "small car 16x16",
+  "name": "small_car",
   "symbol": "sprite_small_car_16x16",
   "numFrames": 8,
-  "filename": "small car 16x16.png",
+  "filename": "small_car.png",
   "checksum": "8872434f07d905c38c64be7f39dd3ef2bdaac436",
   "width": 128,
   "height": 16,

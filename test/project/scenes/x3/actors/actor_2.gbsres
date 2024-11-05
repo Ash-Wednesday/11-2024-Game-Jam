@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
   "id": "a03d480b-bb63-4731-a300-39fce7430393",
-  "name": "",
+  "name": "Actor 2",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "40dcd163-9f72-4861-8131-b01eb9baa000",
+  "spriteSheetId": "da4619a5-009d-4991-b66f-0b9863202399",
   "prefabId": "",
   "direction": "up",
   "moveSpeed": 0.0625,
@@ -22,72 +22,31 @@
       "args": {
         "customEventId": "94cb10e0-01a1-4eda-a082-858d2e0dac67",
         "$variable[V0]$": {
-          "type": "variable",
-          "value": "20"
+          "type": "number",
+          "value": 3
         },
         "$variable[V1]$": {
           "type": "variable",
-          "value": "21"
-        },
-        "$variable[V2]$": {
-          "type": "variable",
-          "value": "35"
-        },
-        "__collapse": true
-      },
-      "id": "c3b53ba1-0273-48e7-b5d9-52d2fa2621ba"
-    }
-  ],
-  "updateScript": [
-    {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
-      "args": {
-        "customEventId": "1e01d263-9b7c-4e78-9c0a-c59fe7edc7ce",
-        "$variable[V0]$": {
-          "type": "variable",
           "value": "20"
         },
-        "$variable[V1]$": {
-          "type": "variable",
-          "value": "21"
-        },
         "$variable[V2]$": {
           "type": "variable",
-          "value": "35"
+          "value": "21"
         },
         "__collapse": false,
         "$variable[V3]$": {
           "type": "variable",
-          "value": "45"
-        }
-      },
-      "id": "eb465655-c32c-490b-8469-0ffcd309a205"
-    },
-    {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
-      "args": {
-        "customEventId": "e2c75bc3-12ba-424f-9d90-516d187b6512",
-        "$variable[V0]$": {
-          "type": "variable",
-          "value": "20"
-        },
-        "$variable[V1]$": {
-          "type": "variable",
-          "value": "21"
-        },
-        "__collapse": true,
-        "$variable[V2]$": {
-          "type": "variable",
           "value": "35"
         }
       },
-      "id": "8b75ebfb-966e-4059-9703-a46edb8b79d0"
+      "id": "77b6a430-244e-4cdc-86d8-4a7799484725"
     }
   ],
+  "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
   "x": 57,
   "y": 39,
-  "_index": 1
+  "_index": 0
 }

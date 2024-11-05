@@ -160,5 +160,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "a827b612-578f-4cb9-a2bf-fd54b197b83f"
+  "playerSpriteSheetId": "a827b612-578f-4cb9-a2bf-fd54b197b83f",
+  "autoFadeEventCollapse": true
 }

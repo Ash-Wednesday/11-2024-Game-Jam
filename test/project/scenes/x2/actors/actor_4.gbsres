@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "e658de43-2de3-4575-80c6-c88bd81e8a55",
-  "name": "Actor 3",
+  "id": "6d74e5d0-fba6-4cdc-95be-e69fa9d0dd85",
+  "name": "Actor 4",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "0149ebf1-bc5f-423f-a85a-a0125c9aea8c",
+  "spriteSheetId": "c3049da5-7a2b-468f-b510-d51c157b67eb",
   "prefabId": "",
   "direction": "up",
   "moveSpeed": 0.0625,
@@ -14,7 +14,7 @@
   "persistent": true,
   "collisionGroup": "1",
   "prefabScriptOverrides": {},
-  "symbol": "actor_43",
+  "symbol": "actor_45",
   "script": [],
   "startScript": [
     {
@@ -22,27 +22,31 @@
       "args": {
         "customEventId": "94cb10e0-01a1-4eda-a082-858d2e0dac67",
         "$variable[V0]$": {
-          "type": "variable",
-          "value": "22"
+          "type": "number",
+          "value": 2
         },
         "$variable[V1]$": {
           "type": "variable",
-          "value": "23"
+          "value": "24"
         },
         "$variable[V2]$": {
           "type": "variable",
-          "value": "36"
+          "value": "25"
         },
-        "__collapse": false
+        "__collapse": false,
+        "$variable[V3]$": {
+          "type": "variable",
+          "value": "37"
+        }
       },
-      "id": "de5c0e7d-b220-4e77-91f3-592011effff2"
+      "id": "cb158e13-6bee-45e4-9e1a-08dd6ab78f42"
     }
   ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 28,
+  "x": 37,
   "y": 30,
-  "_index": 6
+  "_index": 4
 }

@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "6156f478-e862-4032-a753-b817f3c53875",
+  "id": "883c1487-1ac4-4896-a782-16bddcdd75b8",
   "name": "TimerCat",
   "frame": 0,
   "animate": false,
@@ -14,7 +14,7 @@
   "persistent": true,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_53",
+  "symbol": "actor_27",
   "script": [],
   "startScript": [
     {
@@ -23,7 +23,7 @@
         "actorId": "$self$",
         "__collapse": true
       },
-      "id": "b67ad61d-b87b-49e6-a84f-51d4ffecfcb0"
+      "id": "1cc0e851-1792-41b6-b481-e883f202f6cd"
     }
   ],
   "updateScript": [
@@ -31,24 +31,24 @@
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "eaf8e889-fea5-4b6f-a535-71fa8be9753a",
-        "$actor[0]$": "5f3151ff-e5d4-4e8c-a096-cd06a412584f",
-        "$actor[1]$": "2d3f9b6b-e1ab-4487-9014-e6418745d696",
-        "$actor[2]$": "1df91530-ab4b-4507-a865-9696c457a0f5",
-        "$actor[3]$": "946a3c80-c8e7-4510-b6ef-48b4dc448ab6",
-        "$actor[4]$": "8cf1f745-fc48-4414-8fbb-3833566292f1",
-        "__collapse": true,
+        "$actor[0]$": "e7137106-4330-49bd-a1bc-3322888ae236",
+        "$actor[1]$": "a03d480b-bb63-4731-a300-39fce7430393",
+        "$actor[2]$": "98e9a6bd-8035-4b50-a1f8-84b11c30e7ac",
+        "$actor[3]$": "70260c09-608b-4b0a-8f56-48b372565d0b",
+        "$actor[4]$": "800a67c7-c342-4f4e-a3ba-fcb991489f5b",
+        "__collapse": false,
         "$variable[V0]$": {
           "type": "number",
-          "value": 1
+          "value": 3
         }
       },
-      "id": "5e5af23b-21fa-447b-8797-242e25b6dcc0"
+      "id": "55cb1d72-2187-4392-b5f3-e18ffca66bdf"
     }
   ],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 9,
-  "y": 9,
+  "x": 29,
+  "y": 30,
   "_index": 5
 }

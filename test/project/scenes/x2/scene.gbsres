@@ -25,7 +25,7 @@
         "override": true,
         "__scriptTabs": "press",
         "__collapse": true,
-        "__comment": true
+        "__comment": false
       },
       "children": {
         "true": [

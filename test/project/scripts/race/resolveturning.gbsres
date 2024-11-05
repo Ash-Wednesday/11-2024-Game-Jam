@@ -1,0 +1,133 @@
+{
+  "_resourceType": "script",
+  "id": "32a72a82-8eb3-4ff9-99c7-2578c8d8ff31",
+  "name": "race/ResolveTurning",
+  "description": "Resolves turning of racers",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Variable A",
+      "passByReference": true
+    },
+    "V1": {
+      "id": "V1",
+      "name": "Variable B",
+      "passByReference": true
+    },
+    "V2": {
+      "id": "V2",
+      "name": "Variable C",
+      "passByReference": true
+    }
+  },
+  "actors": {},
+  "symbol": "script_0",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "54",
+        "value": {
+          "type": "or",
+          "valueA": {
+            "type": "gte",
+            "valueA": {
+              "type": "variable",
+              "value": "V0"
+            },
+            "valueB": {
+              "type": "number",
+              "value": 204
+            }
+          },
+          "valueB": {
+            "type": "lte",
+            "valueA": {
+              "type": "variable",
+              "value": "V0"
+            },
+            "valueB": {
+              "type": "number",
+              "value": 24
+            }
+          }
+        },
+        "__collapse": true
+      },
+      "id": "507ecf04-40d2-460b-9ad1-b3391a1ff301"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "56",
+        "value": {
+          "type": "or",
+          "valueA": {
+            "type": "gte",
+            "valueA": {
+              "type": "variable",
+              "value": "V1"
+            },
+            "valueB": {
+              "type": "number",
+              "value": 180
+            }
+          },
+          "valueB": {
+            "type": "lte",
+            "valueA": {
+              "type": "variable",
+              "value": "V1"
+            },
+            "valueB": {
+              "type": "number",
+              "value": 48
+            }
+          }
+        },
+        "__collapse": true
+      },
+      "id": "aae71e5e-d08b-4f6d-b0f9-d811987348a3"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "and",
+          "valueA": {
+            "type": "variable",
+            "value": "54"
+          },
+          "valueB": {
+            "type": "variable",
+            "value": "56"
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": true,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "7c27ca9c-694b-4878-8a7a-afe4ca0f79e4",
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "V2"
+              },
+              "__collapse": true,
+              "$variable[V1]$": {
+                "type": "false"
+              }
+            },
+            "id": "50034040-2232-4ee3-8c73-87903c281f80"
+          }
+        ],
+        "false": []
+      },
+      "id": "7e73477d-aebd-423b-bd6c-6ccbc9a6ed03"
+    }
+  ]
+}

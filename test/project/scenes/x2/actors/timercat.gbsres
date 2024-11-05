@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "509609f5-f855-4282-8784-719812b15762",
+  "id": "d3328257-a676-4b13-a641-e2c2b9718bba",
   "name": "TimerCat",
   "frame": 0,
   "animate": false,
@@ -11,55 +11,38 @@
   "animSpeed": 255,
   "paletteId": "",
   "isPinned": false,
-  "persistent": false,
+  "persistent": true,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_47",
+  "symbol": "actor_54",
   "script": [],
   "startScript": [
     {
       "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
       "args": {
-        "actorId": "$self$"
-      },
-      "id": "c19228f4-49d5-451c-8744-92e5f556a432"
-    },
-    {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
-      "args": {
-        "customEventId": "645941d5-8c76-431d-9b93-c190973bde10",
-        "$actor[0]$": "1d3e1b6c-f27f-4b09-b964-5da35faf2854",
-        "$actor[1]$": "20a2c6ac-4e67-4eeb-adb7-470488ff1808",
-        "$actor[2]$": "5cc81b80-336b-444e-a136-30b1983e0c82",
-        "$actor[3]$": "b0354d13-3b20-400d-b2f7-b68e19d92021",
-        "$actor[4]$": "e658de43-2de3-4575-80c6-c88bd81e8a55",
-        "$actor[5]$": "ab48fcc7-b6d6-482d-a5d5-22b2f2bb4fd7",
-        "$actor[6]$": "6d74e5d0-fba6-4cdc-95be-e69fa9d0dd85",
-        "$actor[7]$": "065b722b-5f2e-4016-bfd1-e5fccb32973b",
-        "$actor[8]$": "b0f7790b-3bbc-4c33-82f2-a3eaf7b4cedb",
-        "$actor[9]$": "3144e38f-db47-4a34-8cd9-7ae204eb14da",
+        "actorId": "$self$",
         "__collapse": true
       },
-      "id": "6318ff7c-f000-4498-ac85-4776aae9b3e7"
+      "id": "94a2677c-612e-4889-8565-1ffbafc2e632"
     }
   ],
   "updateScript": [
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "customEventId": "645941d5-8c76-431d-9b93-c190973bde10",
+        "customEventId": "eaf8e889-fea5-4b6f-a535-71fa8be9753a",
         "$actor[0]$": "1d3e1b6c-f27f-4b09-b964-5da35faf2854",
-        "$actor[1]$": "20a2c6ac-4e67-4eeb-adb7-470488ff1808",
-        "$actor[2]$": "5cc81b80-336b-444e-a136-30b1983e0c82",
-        "$actor[3]$": "b0354d13-3b20-400d-b2f7-b68e19d92021",
-        "$actor[4]$": "e658de43-2de3-4575-80c6-c88bd81e8a55",
-        "$actor[5]$": "ab48fcc7-b6d6-482d-a5d5-22b2f2bb4fd7",
-        "$actor[6]$": "6d74e5d0-fba6-4cdc-95be-e69fa9d0dd85",
-        "$actor[7]$": "065b722b-5f2e-4016-bfd1-e5fccb32973b",
-        "$actor[8]$": "b0f7790b-3bbc-4c33-82f2-a3eaf7b4cedb",
-        "$actor[9]$": "3144e38f-db47-4a34-8cd9-7ae204eb14da"
+        "$actor[1]$": "5cc81b80-336b-444e-a136-30b1983e0c82",
+        "$actor[2]$": "e658de43-2de3-4575-80c6-c88bd81e8a55",
+        "$actor[3]$": "6d74e5d0-fba6-4cdc-95be-e69fa9d0dd85",
+        "$actor[4]$": "b0f7790b-3bbc-4c33-82f2-a3eaf7b4cedb",
+        "__collapse": false,
+        "$variable[V0]$": {
+          "type": "number",
+          "value": 2
+        }
       },
-      "id": "9dfda679-2605-4c5a-8316-191ff22c3685"
+      "id": "de50b4ad-8dc5-46a7-b670-dcfc3cbf66a0"
     }
   ],
   "hit1Script": [],
@@ -67,5 +50,5 @@
   "hit3Script": [],
   "x": 19,
   "y": 17,
-  "_index": 10
+  "_index": 5
 }

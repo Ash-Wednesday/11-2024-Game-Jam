@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
-  "id": "98e9a6bd-8035-4b50-a1f8-84b11c30e7ac",
-  "name": "Actor 3",
+  "id": "e7137106-4330-49bd-a1bc-3322888ae236",
+  "name": "Actor 1",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "da4619a5-009d-4991-b66f-0b9863202399",
@@ -14,7 +14,7 @@
   "persistent": true,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_29",
+  "symbol": "actor_35",
   "script": [],
   "startScript": [
     {
@@ -27,19 +27,19 @@
         },
         "$variable[V1]$": {
           "type": "variable",
-          "value": "22"
+          "value": "18"
         },
         "$variable[V2]$": {
           "type": "variable",
-          "value": "23"
+          "value": "19"
         },
         "__collapse": false,
         "$variable[V3]$": {
           "type": "variable",
-          "value": "36"
+          "value": "34"
         }
       },
-      "id": "43b55c28-4162-443e-8212-c78dfe07c7c6"
+      "id": "12a705b5-ec85-4d6b-bc16-8c9e17fb8ae3"
     }
   ],
   "updateScript": [],
@@ -47,6 +47,6 @@
   "hit2Script": [],
   "hit3Script": [],
   "x": 51,
-  "y": 44,
-  "_index": 1
+  "y": 39,
+  "_index": 4
 }
