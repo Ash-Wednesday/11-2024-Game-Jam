@@ -10,7 +10,7 @@
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "00ca8+",
+  "collisions": "0029d+022a+0012+022a+0011+0f!002a+0f!0010+0f!002a+0f!0010+0f!002a+0f!0010+0f!002a+0f!0010+0f!002a+0f!0010+0f!002a+0f!0010+0f!002a+0f!0010+0f!002a+0f!0010+0f!002a+0f!0010+0f!002a+0f!0010+0f!002a+0f!0010+0f!002a+0f!0010+0f!002a+0f!0010+0f!002a+0f!0010+0f!002a+0f!0010+0f!002a+0f!0010+0f!002a+0f!0010+0f!002a+0f!0010+0f!002a+0f!0010+0f!002a+0f!0010+0f!002a+0f!0010+0f!002a+0f!0010+0f!002a+0f!0010+0f!002a+0f!0010+0f!002a+0f!0010+0f!002a+0f!0010+0f!002a+0f!0010+0f!002a+0f!0010+0f!002a+0f!0010+0f!002a+0f!0010+0f!002a+0f!0010+0f!002a+0f!0011+0f2a+001e9+",
   "autoFadeSpeed": 1,
   "symbol": "scene_20",
   "x": 60,
@@ -115,5 +115,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "a827b612-578f-4cb9-a2bf-fd54b197b83f"
+  "playerSpriteSheetId": "51934bfe-62b7-4e90-b26e-29c7d09438b7"
 }

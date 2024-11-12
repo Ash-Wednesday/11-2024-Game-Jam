@@ -63,8 +63,8 @@
     },
     {
       "id": "12",
-      "name": "Turnip Counter",
-      "symbol": ""
+      "name": "Viewers",
+      "symbol": "var_viewers"
     },
     {
       "id": "13",
@@ -218,8 +218,8 @@
     },
     {
       "id": "43",
-      "name": "HalfSpeed",
-      "symbol": "var_halfspeed"
+      "name": "DiagonalSpeed",
+      "symbol": "var_diagonalspeed"
     },
     {
       "id": "44",

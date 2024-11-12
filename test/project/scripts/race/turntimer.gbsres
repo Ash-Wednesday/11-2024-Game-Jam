@@ -6,7 +6,7 @@
   "variables": {
     "V0": {
       "id": "V0",
-      "name": "Variable A",
+      "name": "Zoom",
       "passByReference": true
     }
   },
@@ -348,6 +348,23 @@
         "__collapse": true
       },
       "id": "5e9dd5b4-0d7a-4392-8940-9f7930bebcab"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "f710694b-24dd-4598-8686-f1d008a23611",
+        "__collapse": true,
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "V0"
+        }
+      },
+      "id": "1185fae7-0cd1-4086-bf4f-14493da6deb1"
+    },
+    {
+      "command": "EVENT_IDLE",
+      "args": {},
+      "id": "6ea5c98c-3c26-4e91-a779-48d42b9f8a7a"
     }
   ]
 }
