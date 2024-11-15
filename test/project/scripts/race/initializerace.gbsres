@@ -207,6 +207,27 @@
         "__collapse": true
       },
       "id": "2fdc63e3-cad5-4162-b8de-feb446e2c51c"
+    },
+    {
+      "command": "EVENT_OVERLAY_SET_SCANLINE_CUTOFF",
+      "args": {
+        "y": {
+          "type": "number",
+          "value": 16
+        },
+        "__collapse": true
+      },
+      "id": "97839f25-1a13-422a-a4bf-160693d71587"
+    },
+    {
+      "command": "EVENT_OVERLAY_SHOW",
+      "args": {
+        "color": "black",
+        "x": 0,
+        "y": 0,
+        "__collapse": true
+      },
+      "id": "05acc637-127d-4613-956d-c2633b5f39b8"
     }
   ]
 }

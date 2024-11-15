@@ -4,9 +4,9 @@
   "name": "x2",
   "symbol": "bg_x2",
   "width": 40,
-  "height": 36,
+  "height": 38,
   "imageWidth": 320,
-  "imageHeight": 288,
+  "imageHeight": 304,
   "filename": "x2.png",
   "tileColors": "",
   "autoColor": false

@@ -102,21 +102,21 @@
       "args": {
         "variable": "53",
         "choices": 8,
-        "__collapseCase0": false,
+        "__collapseCase0": true,
         "value0": 128,
-        "__collapseCase1": false,
+        "__collapseCase1": true,
         "value1": 64,
-        "__collapseCase2": false,
+        "__collapseCase2": true,
         "value2": 32,
-        "__collapseCase3": false,
+        "__collapseCase3": true,
         "value3": 16,
-        "__collapseCase4": false,
+        "__collapseCase4": true,
         "value4": 160,
-        "__collapseCase5": false,
+        "__collapseCase5": true,
         "value5": 144,
-        "__collapseCase6": false,
+        "__collapseCase6": true,
         "value6": 80,
-        "__collapseCase7": false,
+        "__collapseCase7": true,
         "value7": 96,
         "__collapseCase8": false,
         "value8": 9,
@@ -134,7 +134,7 @@
         "value14": 15,
         "__collapseCase15": false,
         "value15": 16,
-        "__collapseElse": false,
+        "__collapseElse": true,
         "__collapse": true
       },
       "children": {
@@ -616,14 +616,21 @@
           }
         },
         "y": {
-          "type": "mul",
+          "type": "add",
           "valueA": {
-            "type": "variable",
-            "value": "56"
+            "type": "mul",
+            "valueA": {
+              "type": "variable",
+              "value": "56"
+            },
+            "valueB": {
+              "type": "variable",
+              "value": "V0"
+            }
           },
           "valueB": {
-            "type": "variable",
-            "value": "V0"
+            "type": "number",
+            "value": 32
           }
         },
         "units": "pixels",

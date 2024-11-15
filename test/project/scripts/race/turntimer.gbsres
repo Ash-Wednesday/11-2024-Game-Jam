@@ -363,8 +363,25 @@
     },
     {
       "command": "EVENT_IDLE",
-      "args": {},
+      "args": {
+        "__collapse": true
+      },
       "id": "6ea5c98c-3c26-4e91-a779-48d42b9f8a7a"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "0ab7acdb-7817-42a6-91de-3cded5262e3f",
+        "__collapse": true
+      },
+      "id": "67e24436-bff2-410b-a527-aa508c28346b"
+    },
+    {
+      "command": "EVENT_IDLE",
+      "args": {
+        "__collapse": true
+      },
+      "id": "21360632-311e-421a-bcb2-c2934dc41d7a"
     }
   ]
 }

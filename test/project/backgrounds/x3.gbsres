@@ -4,9 +4,9 @@
   "name": "x3",
   "symbol": "bg_x3",
   "width": 60,
-  "height": 54,
+  "height": 56,
   "imageWidth": 480,
-  "imageHeight": 432,
+  "imageHeight": 448,
   "filename": "x3.png",
   "tileColors": "",
   "autoColor": false

@@ -37,7 +37,7 @@
     {
       "command": "EVENT_GBVM_SCRIPT",
       "args": {
-        "script": "VM_SET_CONST VAR_TEMP, 13\nVM_SET_CONST VAR_TEMP2, 0",
+        "script": ";distance to camera corner is 13 tiles\nVM_SET_CONST VAR_TEMP, 13\nVM_SET_CONST VAR_TEMP2, 0",
         "__collapse": false
       },
       "id": "4c10fc93-480e-4723-b02a-46c97b2c3599"

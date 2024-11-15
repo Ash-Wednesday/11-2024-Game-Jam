@@ -23,7 +23,7 @@
         "actorId": "$self$",
         "__collapse": true
       },
-      "id": "1cc0e851-1792-41b6-b481-e883f202f6cd"
+      "id": "ab8842c2-bbad-4413-ae89-f8afb5a1bb3f"
     }
   ],
   "updateScript": [
@@ -49,6 +49,6 @@
   "hit2Script": [],
   "hit3Script": [],
   "x": 29,
-  "y": 30,
+  "y": 29,
   "_index": 5
 }

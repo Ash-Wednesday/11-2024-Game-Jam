@@ -6,17 +6,17 @@
   "variables": {
     "V0": {
       "id": "V0",
-      "name": "Variable A",
+      "name": "XPosition",
       "passByReference": true
     },
     "V1": {
       "id": "V1",
-      "name": "Variable B",
+      "name": "YPosition",
       "passByReference": true
     },
     "V2": {
       "id": "V2",
-      "name": "Variable C",
+      "name": "Velocity",
       "passByReference": true
     }
   },
@@ -24,84 +24,20 @@
   "symbol": "script_0",
   "script": [
     {
-      "command": "EVENT_SET_VALUE",
+      "command": "EVENT_VARIABLE_MATH_EVALUATE",
       "args": {
         "variable": "54",
-        "value": {
-          "type": "or",
-          "valueA": {
-            "type": "gte",
-            "valueA": {
-              "type": "variable",
-              "value": "V0"
-            },
-            "valueB": {
-              "type": "number",
-              "value": 204
-            }
-          },
-          "valueB": {
-            "type": "lte",
-            "valueA": {
-              "type": "variable",
-              "value": "V0"
-            },
-            "valueB": {
-              "type": "number",
-              "value": 24
-            }
-          }
-        },
+        "expression": "(($V0$ >= 204) || ($V0$ <= 24)) && (($V1$ >= 180) || ($V1$ <= 48))",
         "__collapse": true
       },
-      "id": "507ecf04-40d2-460b-9ad1-b3391a1ff301"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "56",
-        "value": {
-          "type": "or",
-          "valueA": {
-            "type": "gte",
-            "valueA": {
-              "type": "variable",
-              "value": "V1"
-            },
-            "valueB": {
-              "type": "number",
-              "value": 180
-            }
-          },
-          "valueB": {
-            "type": "lte",
-            "valueA": {
-              "type": "variable",
-              "value": "V1"
-            },
-            "valueB": {
-              "type": "number",
-              "value": 48
-            }
-          }
-        },
-        "__collapse": true
-      },
-      "id": "aae71e5e-d08b-4f6d-b0f9-d811987348a3"
+      "id": "7e1ee2ac-11fd-4a77-86c7-eb5b9a48d2bc"
     },
     {
       "command": "EVENT_IF",
       "args": {
         "condition": {
-          "type": "and",
-          "valueA": {
-            "type": "variable",
-            "value": "54"
-          },
-          "valueB": {
-            "type": "variable",
-            "value": "56"
-          }
+          "type": "variable",
+          "value": "54"
         },
         "__collapseElse": false,
         "__collapse": true,

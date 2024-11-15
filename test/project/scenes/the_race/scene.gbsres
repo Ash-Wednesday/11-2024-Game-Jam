@@ -6,11 +6,11 @@
   "backgroundId": "cd7ec693-e242-4c4c-877c-9acfdcdfd631",
   "tilesetId": "",
   "width": 20,
-  "height": 18,
+  "height": 20,
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "002b+02e+005+0f!02e+0f!004+0f!02e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!005+0fe+002b+",
+  "collisions": "00a0+0214+00dc+",
   "autoFadeSpeed": 1,
   "symbol": "scene_18",
   "x": 60,
@@ -24,7 +24,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -98,6 +98,14 @@
       "id": "9a78ab14-3884-4dc7-abad-7b3ee5beeff4"
     },
     {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "80922cb9-d854-4bbd-bf8e-06c3223ceada",
+        "__collapse": true
+      },
+      "id": "195bbd9f-0d9f-497b-a0c1-bedffd2582fa"
+    },
+    {
       "command": "EVENT_IF",
       "args": {
         "condition": {
@@ -111,7 +119,8 @@
           }
         },
         "__collapseElse": true,
-        "__disableElse": true
+        "__disableElse": true,
+        "__collapse": true
       },
       "children": {
         "true": [

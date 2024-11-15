@@ -6,15 +6,15 @@
   "backgroundId": "15190557-c1bf-40e5-a941-a9a3fea63784",
   "tilesetId": "",
   "width": 40,
-  "height": 36,
+  "height": 38,
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "0011e+021c+00b+0f!021c+0f!00a+0f!001c+0f!00a+0f!001c+0f!00a+0f!001c+0f!00a+0f!001c+0f!00a+0f!001c+0f!00a+0f!001c+0f!00a+0f!001c+0f!00a+0f!001c+0f!00a+0f!001c+0f!00a+0f!001c+0f!00a+0f!001c+0f!00a+0f!001c+0f!00a+0f!001c+0f!00a+0f!001c+0f!00a+0f!001c+0f!00a+0f!001c+0f!00a+0f!001c+0f!00a+0f!001c+0f!00a+0f!001c+0f!00a+0f!001c+0f!00a+0f!001c+0f!00b+0f1c+00ce+",
+  "collisions": "00140+0228+00488+",
   "autoFadeSpeed": 1,
   "symbol": "scene_19",
   "x": 60,
-  "y": 608,
+  "y": 616,
   "script": [
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
@@ -24,7 +24,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": false,
+        "__collapse": true,
         "__comment": false
       },
       "children": {
@@ -137,7 +137,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -188,6 +188,42 @@
               "__collapse": true
             },
             "id": "21079053-6ffc-4bc3-98ce-43a7f0083dbe"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "lt",
+                "valueA": {
+                  "type": "variable",
+                  "value": "L1"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 10
+                }
+              },
+              "__collapseElse": true,
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "L1",
+                    "value": {
+                      "type": "number",
+                      "value": 10
+                    },
+                    "__collapse": true
+                  },
+                  "id": "78a407ee-ed53-4808-8aac-1e253f11a98a"
+                }
+              ],
+              "false": []
+            },
+            "id": "52ed0ff8-413b-41ac-9eb3-413938e96b2e"
           },
           {
             "command": "EVENT_SWITCH_SCENE",

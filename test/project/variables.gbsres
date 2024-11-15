@@ -223,13 +223,13 @@
     },
     {
       "id": "44",
-      "name": "GroupTurn",
-      "symbol": "var_groupturn"
+      "name": "temp3",
+      "symbol": "var_temp3_0"
     },
     {
       "id": "45",
-      "name": "Group1ID",
-      "symbol": "var_group1id_0"
+      "name": "UIState",
+      "symbol": "var_uistate"
     },
     {
       "id": "46",
