@@ -233,18 +233,13 @@
     },
     {
       "id": "46",
-      "name": "Group2ID",
-      "symbol": "var_group2id"
+      "name": "PlayerX",
+      "symbol": "var_playerx"
     },
     {
       "id": "47",
-      "name": "Group3ID",
-      "symbol": "var_group3id"
-    },
-    {
-      "id": "48",
-      "name": "Group4ID",
-      "symbol": "var_group4id"
+      "name": "PlayerY",
+      "symbol": "var_playery"
     },
     {
       "id": "49",
@@ -278,8 +273,8 @@
     },
     {
       "id": "55",
-      "name": "RaceStarted",
-      "symbol": "var_racestarted"
+      "name": "Time",
+      "symbol": "var_time"
     },
     {
       "id": "56",

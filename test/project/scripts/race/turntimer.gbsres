@@ -357,7 +357,12 @@
         "$variable[V0]$": {
           "type": "variable",
           "value": "V0"
-        }
+        },
+        "$actor[0]$": "0",
+        "$actor[1]$": "1",
+        "$actor[2]$": "2",
+        "$actor[3]$": "3",
+        "$actor[4]$": "4"
       },
       "id": "1185fae7-0cd1-4086-bf4f-14493da6deb1"
     },
@@ -382,6 +387,77 @@
         "__collapse": true
       },
       "id": "21360632-311e-421a-bcb2-c2934dc41d7a"
+    },
+    {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "55",
+        "__collapse": true
+      },
+      "id": "ea39920e-1b66-4284-9446-5eb76e98dc63"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "gt",
+          "valueA": {
+            "type": "variable",
+            "value": "55"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 60
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_MUSIC_STOP",
+            "args": {
+              "__collapse": true
+            },
+            "id": "43358517-7fb6-4acc-ba1d-99d3ba6032d7"
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "tone",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 64,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 0,
+              "__collapse": true
+            },
+            "id": "48bf4931-94a7-4ebe-806c-d9f31422af70"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "6ab6e227-d3f7-4aa7-8818-fa7d7aeda304",
+              "x": {
+                "type": "number",
+                "value": 9
+              },
+              "y": {
+                "type": "number",
+                "value": 10
+              },
+              "direction": "",
+              "fadeSpeed": 1
+            },
+            "id": "7cd44a32-dec2-466b-b208-bf405fc8f2cc"
+          }
+        ],
+        "false": []
+      },
+      "id": "9d221290-5415-4149-b1db-1c118178abb6"
     }
   ]
 }
