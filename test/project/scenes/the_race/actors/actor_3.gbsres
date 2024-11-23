@@ -18,6 +18,14 @@
   "script": [],
   "startScript": [
     {
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "8f537667-6302-4013-9efe-5e431acde1fb"
+    },
+    {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "94cb10e0-01a1-4eda-a082-858d2e0dac67",
@@ -33,7 +41,7 @@
           "type": "variable",
           "value": "23"
         },
-        "__collapse": false,
+        "__collapse": true,
         "$variable[V3]$": {
           "type": "variable",
           "value": "36"
