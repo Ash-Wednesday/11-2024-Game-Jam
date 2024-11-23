@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "bdfdd005-bcf3-4ce8-983b-3387e42ea08f",
+  "name": "x3 mono",
+  "symbol": "bg_x3_copy",
+  "width": 60,
+  "height": 56,
+  "imageWidth": 480,
+  "imageHeight": 448,
+  "filename": "x3 mono.png",
+  "tileColors": "",
+  "autoColor": false
+}

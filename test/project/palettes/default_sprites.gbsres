@@ -3,10 +3,10 @@
   "id": "default-sprite",
   "name": "Default Sprites",
   "colors": [
-    "F8F0E0",
-    "D88078",
-    "C88068",
-    "082048"
+    "F8E898",
+    "fe3a31",
+    "fe3a31",
+    "311952"
   ],
   "defaultName": "Default Sprites",
   "defaultColors": [

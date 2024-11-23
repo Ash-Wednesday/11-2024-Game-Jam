@@ -8,6 +8,6 @@
   "imageWidth": 480,
   "imageHeight": 448,
   "filename": "x3.png",
-  "tileColors": "",
-  "autoColor": false
+  "tileColors": "00d20+",
+  "autoColor": true
 }

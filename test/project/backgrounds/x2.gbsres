@@ -8,6 +8,6 @@
   "imageWidth": 320,
   "imageHeight": 304,
   "filename": "x2.png",
-  "tileColors": "",
-  "autoColor": false
+  "tileColors": "005f0+",
+  "autoColor": true
 }

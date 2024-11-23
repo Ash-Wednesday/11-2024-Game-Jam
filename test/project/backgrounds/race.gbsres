@@ -8,6 +8,6 @@
   "imageWidth": 160,
   "imageHeight": 160,
   "filename": "race.png",
-  "tileColors": "",
-  "autoColor": false
+  "tileColors": "00190+",
+  "autoColor": true
 }
