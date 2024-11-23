@@ -10,14 +10,14 @@
     {
       "command": "EVENT_GBVM_SCRIPT",
       "args": {
-        "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 2",
+        "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 2\n;VM_OVERLAY_SET_MAP 0, 0, 0, ___bank_tileset_static_ui, _tileset_static_ui",
         "references": [
           {
             "type": "tileset",
             "id": "a19b9f29-9316-48da-b80e-6682dc31b346"
           }
         ],
-        "__collapse": true
+        "__collapse": false
       },
       "id": "da71fdaf-dfbe-4ed2-8450-2d9e7ef6c4c5"
     },
@@ -25,7 +25,7 @@
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "0ab7acdb-7817-42a6-91de-3cded5262e3f",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "2a8281c2-3216-4bb2-8d0a-0968c3a5ae2c"
     }

@@ -334,7 +334,11 @@
       ]
     }
   ],
+<<<<<<< HEAD:test/project/sprites/small_car_3.gbsres
   "numTiles": 10,
+=======
+  "numTiles": 8,
+>>>>>>> 3f63bcd33e9107e59a7d7ce8c45822ea17afec44:test/project/sprites/medium_car_front.gbsres
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,

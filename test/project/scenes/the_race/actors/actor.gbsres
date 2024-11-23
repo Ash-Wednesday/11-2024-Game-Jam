@@ -50,7 +50,25 @@
       "id": "59ad11f5-b994-4021-ba74-ceedcfbcdd02"
     }
   ],
-  "updateScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "eaf8e889-fea5-4b6f-a535-71fa8be9753a",
+        "$variable[V0]$": {
+          "type": "number",
+          "value": 1
+        },
+        "$actor[0]$": "5f3151ff-e5d4-4e8c-a096-cd06a412584f",
+        "$actor[1]$": "2d3f9b6b-e1ab-4487-9014-e6418745d696",
+        "$actor[2]$": "1df91530-ab4b-4507-a865-9696c457a0f5",
+        "$actor[3]$": "946a3c80-c8e7-4510-b6ef-48b4dc448ab6",
+        "$actor[4]$": "8cf1f745-fc48-4414-8fbb-3833566292f1",
+        "__collapse": true
+      },
+      "id": "cba31b86-aaad-4392-b014-754361455c5a"
+    }
+  ],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
