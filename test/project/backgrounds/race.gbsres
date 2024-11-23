@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "cd7ec693-e242-4c4c-877c-9acfdcdfd631",
+  "name": "race",
+  "symbol": "bg_black_copy",
+  "width": 20,
+  "height": 20,
+  "imageWidth": 160,
+  "imageHeight": 160,
+  "filename": "race.png",
+  "tileColors": "00190+",
+  "autoColor": true
+}

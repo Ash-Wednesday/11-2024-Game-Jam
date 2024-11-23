@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "8cc2e554-3c8d-442a-9e0a-36abdf8e244e",
+  "name": "score",
+  "symbol": "bg_black_copy_0",
+  "width": 20,
+  "height": 20,
+  "imageWidth": 160,
+  "imageHeight": 160,
+  "filename": "score.png",
+  "tileColors": "",
+  "autoColor": false
+}

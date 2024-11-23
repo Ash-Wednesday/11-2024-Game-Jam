@@ -1,0 +1,78 @@
+{
+  "_resourceType": "actor",
+  "id": "1d3e1b6c-f27f-4b09-b964-5da35faf2854",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "c3049da5-7a2b-468f-b510-d51c157b67eb",
+  "prefabId": "",
+  "direction": "up",
+  "moveSpeed": 0.0625,
+  "animSpeed": 255,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": true,
+  "collisionGroup": "1",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_33",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "2a394d38-4695-4627-bb10-3fae87915cb0"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "94cb10e0-01a1-4eda-a082-858d2e0dac67",
+        "$variable[V0]$": {
+          "type": "number",
+          "value": 2
+        },
+        "$variable[V1]$": {
+          "type": "variable",
+          "value": "18"
+        },
+        "$variable[V2]$": {
+          "type": "variable",
+          "value": "19"
+        },
+        "__collapse": true,
+        "$variable[V3]$": {
+          "type": "variable",
+          "value": "34"
+        }
+      },
+      "id": "0a0ab626-a73b-482f-bb88-217825a5d571"
+    }
+  ],
+  "updateScript": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "eaf8e889-fea5-4b6f-a535-71fa8be9753a",
+        "$actor[0]$": "1d3e1b6c-f27f-4b09-b964-5da35faf2854",
+        "$actor[1]$": "5cc81b80-336b-444e-a136-30b1983e0c82",
+        "$actor[2]$": "e658de43-2de3-4575-80c6-c88bd81e8a55",
+        "$actor[3]$": "6d74e5d0-fba6-4cdc-95be-e69fa9d0dd85",
+        "$actor[4]$": "b0f7790b-3bbc-4c33-82f2-a3eaf7b4cedb",
+        "__collapse": true,
+        "$variable[V0]$": {
+          "type": "number",
+          "value": 2
+        }
+      },
+      "id": "2c7f809d-7267-4b95-91a8-37899ad4d67d"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 34,
+  "y": 21,
+  "_index": 0
+}

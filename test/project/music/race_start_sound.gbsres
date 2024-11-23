@@ -1,0 +1,9 @@
+{
+  "_resourceType": "music",
+  "id": "b6b2dba2-2886-4485-841d-3565bfb8cbaf",
+  "name": "Race_Start_Sound",
+  "symbol": "song_race_start_sound",
+  "filename": "Race_Start_Sound.uge",
+  "settings": {},
+  "type": "uge"
+}

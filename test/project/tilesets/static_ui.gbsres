@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "a19b9f29-9316-48da-b80e-6682dc31b346",
+  "name": "static UI",
+  "symbol": "tileset_static_ui",
+  "width": 20,
+  "height": 2,
+  "imageWidth": 160,
+  "imageHeight": 16,
+  "filename": "static UI.png"
+}

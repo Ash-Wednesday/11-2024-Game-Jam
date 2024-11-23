@@ -1,0 +1,87 @@
+{
+  "_resourceType": "scene",
+  "id": "6ab6e227-d3f7-4aa7-8818-fa7d7aeda304",
+  "_index": 5,
+  "name": "Game Over",
+  "backgroundId": "8cc2e554-3c8d-442a-9e0a-36abdf8e244e",
+  "tilesetId": "",
+  "width": 20,
+  "height": 20,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_21",
+  "x": 232,
+  "y": 424,
+  "script": [
+    {
+      "id": "bef39ac0-2a45-454a-aa72-1b8b4af14675",
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "player",
+        "__collapse": true
+      }
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "5ac65042-28b7-4e16-8752-dc209e592cad"
+      },
+      "id": "37048611-5e62-4649-ae10-b81ebfa639ab"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "9e63fcea-bb03-4921-81df-6f223d2044ad"
+      },
+      "id": "67fd1163-c58f-40df-b3e0-9bb540e4e3b3"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30
+      },
+      "id": "4785d011-187c-4282-9294-097d4f606cf5"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start",
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "382961a1-e615-4b92-92a7-f1a791b50b7a",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": 1
+            },
+            "id": "1b2a5917-61ff-46da-a10a-2c12aaf6296f"
+          }
+        ]
+      },
+      "id": "a1424008-391b-482f-ab52-b0ce83bb21e5"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "1e27bb8e-c805-435a-8b87-05b4f50da4f0"
+}
