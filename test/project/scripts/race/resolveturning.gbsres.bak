@@ -1,0 +1,69 @@
+{
+  "_resourceType": "script",
+  "id": "32a72a82-8eb3-4ff9-99c7-2578c8d8ff31",
+  "name": "race/ResolveTurning",
+  "description": "Resolves turning of racers",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "XPosition",
+      "passByReference": true
+    },
+    "V1": {
+      "id": "V1",
+      "name": "YPosition",
+      "passByReference": true
+    },
+    "V2": {
+      "id": "V2",
+      "name": "Velocity",
+      "passByReference": true
+    }
+  },
+  "actors": {},
+  "symbol": "script_0",
+  "script": [
+    {
+      "command": "EVENT_VARIABLE_MATH_EVALUATE",
+      "args": {
+        "variable": "54",
+        "expression": "(($V0$ >= 204) || ($V0$ <= 24)) && (($V1$ >= 180) || ($V1$ <= 48))",
+        "__collapse": true
+      },
+      "id": "7e1ee2ac-11fd-4a77-86c7-eb5b9a48d2bc"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "54"
+        },
+        "__collapseElse": false,
+        "__collapse": true,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "7c27ca9c-694b-4878-8a7a-afe4ca0f79e4",
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "V2"
+              },
+              "__collapse": true,
+              "$variable[V1]$": {
+                "type": "false"
+              }
+            },
+            "id": "50034040-2232-4ee3-8c73-87903c281f80"
+          }
+        ],
+        "false": []
+      },
+      "id": "7e73477d-aebd-423b-bd6c-6ccbc9a6ed03"
+    }
+  ]
+}

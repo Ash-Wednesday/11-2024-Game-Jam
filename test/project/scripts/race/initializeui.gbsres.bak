@@ -1,0 +1,33 @@
+{
+  "_resourceType": "script",
+  "id": "80922cb9-d854-4bbd-bf8e-06c3223ceada",
+  "name": "race/InitializeUI",
+  "description": "Initializes UI",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_19",
+  "script": [
+    {
+      "command": "EVENT_GBVM_SCRIPT",
+      "args": {
+        "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 2",
+        "references": [
+          {
+            "type": "tileset",
+            "id": "a19b9f29-9316-48da-b80e-6682dc31b346"
+          }
+        ],
+        "__collapse": true
+      },
+      "id": "da71fdaf-dfbe-4ed2-8450-2d9e7ef6c4c5"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "0ab7acdb-7817-42a6-91de-3cded5262e3f",
+        "__collapse": true
+      },
+      "id": "2a8281c2-3216-4bb2-8d0a-0968c3a5ae2c"
+    }
+  ]
+}
