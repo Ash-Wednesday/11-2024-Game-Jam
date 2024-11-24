@@ -5,13 +5,15 @@
   "type": "TOPDOWN",
   "name": "ui/Logo",
   "symbol": "scene_logo",
-  "x": 141,
-  "y": 75,
+  "x": 72,
+  "y": 136,
   "width": 20,
   "height": 18,
   "backgroundId": "f8b1c7ad-7bb2-44b2-8189-175ae8698f11",
   "tilesetId": "",
-  "paletteIds": [],
+  "paletteIds": [
+    ""
+  ],
   "spritePaletteIds": [],
   "autoFadeSpeed": 1,
   "script": [

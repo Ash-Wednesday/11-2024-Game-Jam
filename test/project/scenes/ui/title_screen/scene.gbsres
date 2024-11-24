@@ -5,8 +5,8 @@
   "type": "TOPDOWN",
   "name": "ui/Title Screen",
   "symbol": "scene_title_screen",
-  "x": 341,
-  "y": 76,
+  "x": 280,
+  "y": 136,
   "width": 20,
   "height": 18,
   "backgroundId": "f047ff0e-58ad-49fc-bd2b-ec84fc1f7ab3",
@@ -123,20 +123,29 @@
             "children": {
               "true": [
                 {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "d7d482d0-e9b1-4d5d-901b-070ac97dd7b6",
+                    "__collapse": true
+                  },
+                  "id": "9eb0ae15-b36c-4ff8-bf19-ba102248545b"
+                },
+                {
                   "id": "a5dddc76-e5fe-424a-9b2b-1ad1834acefb",
                   "command": "EVENT_SWITCH_SCENE",
                   "args": {
-                    "sceneId": "896aee79-9b53-4ac1-b41f-b1ddf96da7ff",
+                    "sceneId": "97dac3e6-74a4-4b1b-8d99-d5e42d9ce317",
                     "x": {
                       "type": "number",
-                      "value": 9
+                      "value": 10
                     },
                     "y": {
                       "type": "number",
                       "value": 10
                     },
-                    "direction": "right",
-                    "fadeSpeed": "4"
+                    "direction": "",
+                    "fadeSpeed": "2",
+                    "__collapse": true
                   }
                 }
               ],
