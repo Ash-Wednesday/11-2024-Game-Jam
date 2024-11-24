@@ -309,6 +309,33 @@
         "false": []
       },
       "id": "ac99e336-f159-48b1-ae93-6abf5c798065"
+    },
+    {
+      "command": "EVENT_IF_COLOR_SUPPORTED",
+      "args": {
+        "__collapseElse": true,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PALETTE_SET_SPRITE",
+            "args": {
+              "palette0": "default-sprite",
+              "palette1": "64e45877-a203-4e68-955c-c9cde1e6f2fd",
+              "palette2": "276a9ba2-cc13-402a-afb7-9dcafd20b8c5",
+              "palette3": "7157a0f0-af29-45eb-8f54-aceeade9fe32",
+              "palette4": "f87bcaf1-4aac-456d-940e-cd51d1707d1c",
+              "palette5": "keep",
+              "palette6": "keep",
+              "palette7": "keep"
+            },
+            "id": "5b93aa0b-d84b-4db8-ac55-e536ca80213b"
+          }
+        ],
+        "false": []
+      },
+      "id": "6e4aa2d1-b260-490f-8da9-40126b93805c"
     }
   ]
 }
