@@ -4,7 +4,7 @@
   "name": "Actor 3",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "491a5d1a-7017-47c7-a892-88d09cb7cac6",
+  "spriteSheetId": "c3049da5-7a2b-468f-b510-d51c157b67eb",
   "prefabId": "",
   "direction": "up",
   "moveSpeed": 0.0625,
@@ -17,6 +17,16 @@
   "symbol": "actor_43",
   "script": [],
   "startScript": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "Palette3",
+        "loopAnim": false,
+        "__collapse": true
+      },
+      "id": "e9fe2b59-cf22-4ca1-bf1d-ecdfe501b4f5"
+    },
     {
       "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
       "args": {

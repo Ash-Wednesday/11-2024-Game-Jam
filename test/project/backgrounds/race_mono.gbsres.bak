@@ -8,5 +8,6 @@
   "imageWidth": 160,
   "imageHeight": 160,
   "filename": "race mono.png",
-  "tileColors": ""
+  "tileColors": "0150+00140+",
+  "autoColor": false
 }

@@ -1,13 +1,13 @@
 {
   "_resourceType": "background",
   "id": "4b3301cc-835a-48c3-99f3-198d83a8a93f",
-  "name": "race mono",
+  "name": "race_mono",
   "symbol": "bg_race_copy",
   "width": 20,
   "height": 20,
   "imageWidth": 160,
   "imageHeight": 160,
-  "filename": "race mono.png",
-  "tileColors": "",
+  "filename": "race_mono.png",
+  "tileColors": "0150+00140+",
   "autoColor": false
 }

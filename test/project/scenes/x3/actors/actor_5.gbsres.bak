@@ -18,6 +18,16 @@
   "script": [],
   "startScript": [
     {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "Palette5",
+        "loopAnim": false,
+        "__collapse": true
+      },
+      "id": "ccf8c4ad-146e-4917-b9f9-f13e366f2de7"
+    },
+    {
       "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
       "args": {
         "actorId": "$self$",

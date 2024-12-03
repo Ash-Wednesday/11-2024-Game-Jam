@@ -60,7 +60,7 @@
         "$actor[2]$": "98e9a6bd-8035-4b50-a1f8-84b11c30e7ac",
         "$actor[3]$": "70260c09-608b-4b0a-8f56-48b372565d0b",
         "$actor[4]$": "800a67c7-c342-4f4e-a3ba-fcb991489f5b",
-        "__collapse": false,
+        "__collapse": true,
         "$variable[V0]$": {
           "type": "number",
           "value": 3

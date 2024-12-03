@@ -8,5 +8,6 @@
   "imageWidth": 320,
   "imageHeight": 304,
   "filename": "x2 mono.png",
-  "tileColors": ""
+  "tileColors": "019d+00!012+00550+",
+  "autoColor": false
 }

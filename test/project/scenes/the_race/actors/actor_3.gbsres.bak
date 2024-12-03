@@ -22,7 +22,8 @@
       "args": {
         "actorId": "$self$",
         "spriteStateId": "Palette3",
-        "loopAnim": false
+        "loopAnim": false,
+        "__collapse": true
       },
       "id": "a10a4095-ab1f-4aba-a4ee-c3d80e3e1eed"
     },
